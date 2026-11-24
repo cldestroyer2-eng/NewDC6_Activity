@@ -26,7 +26,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               <Link
                 href="/about"
                 className="rounded-lg px-4 py-2 text-indigo-100 transition hover:bg-white/10 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-              >
+              > 
                   About | 
               </Link>
               <Link
