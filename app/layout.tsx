@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Clarke David Murcia | Acticity 6",
+  title: "Clarke David Murcia | Activity",
   description: "A personal site built with Next.js",
 };
 
