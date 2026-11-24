@@ -5,7 +5,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en">
-      <body className="min-h-full flex flex-col">
+      <body>
         <nav>
           <Link href="/">Home</Link>
           <Link href="/about">About</Link>
