@@ -35,6 +35,8 @@ export default function ProjectsPage() {
               {project.name}
             </h2>
             <p className="mt-2 leading-7 text-slate-600">{project.description}</p>
+
+            <hr />
           </li>
         ))}
       </ul>
