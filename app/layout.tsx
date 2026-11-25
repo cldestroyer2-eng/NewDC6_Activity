@@ -1,4 +1,5 @@
-﻿import { Metadata } from "next";
+﻿import "./globals.css";
+import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -21,13 +22,13 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
                 href="/"
                 className="rounded-lg px-4 py-2 text-indigo-100 transition hover:bg-white/10 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
               >
-                Home |  
+                Home   
               </Link>
               <Link
                 href="/about"
                 className="rounded-lg px-4 py-2 text-indigo-100 transition hover:bg-white/10 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
               > 
-                  About | 
+                  About 
               </Link>
               <Link
                 href="/projects"
